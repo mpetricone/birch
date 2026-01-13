@@ -1,0 +1,13 @@
+15 	12 	11 	8 	7 	0
+Backcolor 	Forecolor 	Character
+
+The upper 8-bits of each 16-bit text element is called an 'attribute byte', and the lower 8-bits is called the 'character byte'. As you can see from the above table, mapping out the parts of each 16-bit text element, the attribute byte gets broken up further into 2 different 4-bit chunks: 1 representing background color and 1 representing foreground color. Now, because of the fact that only 4-bits define each color, there can only be a maximum of 16 different colors to choose from (Using the equation (num bits ^ 2) - 4^2 = 16). Below is a table of the default 16-color palette.
+Value 	Color 	Value 	Color
+0 	BLACK 	8 	DARK GREY
+1 	BLUE 	9 	LIGHT BLUE
+2 	GREEN 	10 	LIGHT GREEN
+3 	CYAN 	11 	LIGHT CYAN
+4 	RED 	12 	LIGHT RED
+5 	MAGENTA 	13 	LIGHT MAGENTA
+6 	BROWN 	14 	LIGHT BROWN
+7 	LIGHT GREY 	15 	WHITE

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="apic.c" open="0" top="0" tabpos="1">
+		<Cursor position="548" topLine="0" />
+	</File>
+	<File name="asm_utils.asm" open="0" top="0" tabpos="3">
+		<Cursor position="321" topLine="0" />
+	</File>
+	<File name="bios_info.c" open="1" top="0" tabpos="3">
+		<Cursor position="1063" topLine="0" />
+	</File>
+	<File name="birch.lnk" open="0" top="0" tabpos="3">
+		<Cursor position="287" topLine="0" />
+	</File>
+	<File name="bvideo.c" open="0" top="0" tabpos="3">
+		<Cursor position="768" topLine="51" />
+	</File>
+	<File name="cpuchk.c" open="0" top="0" tabpos="2">
+		<Cursor position="428" topLine="0" />
+	</File>
+	<File name="gdt.asm" open="0" top="0" tabpos="6">
+		<Cursor position="578" topLine="0" />
+	</File>
+	<File name="gdt.c" open="0" top="0" tabpos="4">
+		<Cursor position="1810" topLine="0" />
+	</File>
+	<File name="idt.c" open="0" top="0" tabpos="5">
+		<Cursor position="3390" topLine="0" />
+	</File>
+	<File name="inc\apic.h" open="0" top="0" tabpos="6">
+		<Cursor position="863" topLine="8" />
+	</File>
+	<File name="inc\bios.h" open="1" top="1" tabpos="4">
+		<Cursor position="2725" topLine="57" />
+	</File>
+	<File name="inc\bvideo.h" open="0" top="0" tabpos="5">
+		<Cursor position="102" topLine="0" />
+	</File>
+	<File name="inc\gdt.h" open="0" top="0" tabpos="4">
+		<Cursor position="1246" topLine="0" />
+	</File>
+	<File name="inc\idt.h" open="0" top="0" tabpos="3">
+		<Cursor position="3245" topLine="54" />
+	</File>
+	<File name="inc\kernel.h" open="0" top="0" tabpos="10">
+		<Cursor position="80" topLine="0" />
+	</File>
+	<File name="inc\klist.h" open="0" top="0" tabpos="0">
+		<Cursor position="267" topLine="0" />
+	</File>
+	<File name="inc\kstring.h" open="0" top="0" tabpos="8">
+		<Cursor position="175" topLine="0" />
+	</File>
+	<File name="inc\kutils.h" open="0" top="0" tabpos="7">
+		<Cursor position="925" topLine="0" />
+	</File>
+	<File name="inc\mb.h" open="0" top="0" tabpos="11">
+		<Cursor position="1753" topLine="67" />
+	</File>
+	<File name="inc\mm.h" open="0" top="0" tabpos="1">
+		<Cursor position="460" topLine="0" />
+	</File>
+	<File name="inc\panic.h" open="0" top="0" tabpos="7">
+		<Cursor position="750" topLine="0" />
+	</File>
+	<File name="inc\types.h" open="0" top="0" tabpos="3">
+		<Cursor position="386" topLine="0" />
+	</File>
+	<File name="inc\x86_asm\x86msr.h" open="0" top="0" tabpos="2">
+		<Cursor position="305" topLine="0" />
+	</File>
+	<File name="interrupt.asm" open="0" top="0" tabpos="0">
+		<Cursor position="1996" topLine="0" />
+	</File>
+	<File name="ioapic.c" open="0" top="0" tabpos="2">
+		<Cursor position="411" topLine="0" />
+	</File>
+	<File name="klist.c" open="1" top="0" tabpos="1">
+		<Cursor position="2050" topLine="46" />
+	</File>
+	<File name="kmain.c" open="1" top="0" tabpos="2">
+		<Cursor position="2580" topLine="38" />
+	</File>
+	<File name="kstring.c" open="0" top="0" tabpos="3">
+		<Cursor position="1164" topLine="18" />
+	</File>
+	<File name="kutils.c" open="0" top="0" tabpos="4">
+		<Cursor position="275" topLine="0" />
+	</File>
+	<File name="main.asm" open="0" top="0" tabpos="15">
+		<Cursor position="696" topLine="0" />
+	</File>
+	<File name="mm_page.c" open="0" top="0" tabpos="4">
+		<Cursor position="1142" topLine="21" />
+	</File>
+	<File name="mmlist.c" open="0" top="0" tabpos="1">
+		<Cursor position="5438" topLine="0" />
+	</File>
+	<File name="panic.c" open="0" top="0" tabpos="8">
+		<Cursor position="209" topLine="0" />
+	</File>
+	<File name="port.asm" open="0" top="0" tabpos="4">
+		<Cursor position="174" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

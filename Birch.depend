@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1287613432 source:c:\cygwin\home\cecil\birch2\bvideo.c
+	"inc/mb.h"
+
+1287613013 c:\cygwin\home\cecil\birch2\inc\mb.h
+	"types.h"
+
+1287602677 c:\cygwin\home\cecil\birch2\inc\types.h
+
+1287613663 source:c:\cygwin\home\cecil\birch2\kmain.c
+	"inc/mb.h"
+	"inc/bvideo.h"
+
+1287612941 c:\cygwin\home\cecil\birch2\inc\bvideo.h
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Birch" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin\Release\Birch" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="apic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="asm_utils.asm" />
+		<Unit filename="bios_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="birch.lnk" />
+		<Unit filename="bvideo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpuchk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gdt.asm" />
+		<Unit filename="gdt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="idt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inc\apic.h" />
+		<Unit filename="inc\bios.h" />
+		<Unit filename="inc\bvideo.h" />
+		<Unit filename="inc\gdt.h" />
+		<Unit filename="inc\idt.h" />
+		<Unit filename="inc\kernel.h" />
+		<Unit filename="inc\klist.h" />
+		<Unit filename="inc\kstring.h" />
+		<Unit filename="inc\kutils.h" />
+		<Unit filename="inc\mb.h" />
+		<Unit filename="inc\mm.h" />
+		<Unit filename="inc\panic.h" />
+		<Unit filename="inc\types.h" />
+		<Unit filename="inc\x86_asm\x86msr.h" />
+		<Unit filename="interrupt.asm" />
+		<Unit filename="ioapic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="klist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="kmain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="kstring.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="kutils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.asm" />
+		<Unit filename="mm_page.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mmlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="panic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="port.asm" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
